@@ -16,7 +16,7 @@ $ yarn add iffyjiffy
 
 Use:
 ```shell
-import IF from 'iffyjiffy';
+import IF | { IF } from 'iffyjiffy';
 
 <IF condition={true|false}>
     <ConditionallyRenderedChild />
